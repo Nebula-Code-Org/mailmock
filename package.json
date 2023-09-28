@@ -1,0 +1,30 @@
+{
+  "name": "@nebulacode/mailmock",
+  "version": "1.0.0",
+  "description": "Fake SMTP server",
+  "main": "index.js",
+  "keywords": [],
+  "author": {
+    "email": "leonardo@leoferreira.dev",
+    "name": "Leonardo Ferreira Lima"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src --clear-screen=false --ignore *.spec.ts",
+    "test": "vitest",
+    "test:watch": "vitest watch"
+  },
+  "dependencies": {
+    "mailparser": "^3.6.5",
+    "smtp-server": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/mailparser": "^3.4.1",
+    "@types/nodemailer": "^6.4.11",
+    "@types/smtp-server": "^3.5.8",
+    "nodemailer": "^6.9.5",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.5"
+  }
+}
